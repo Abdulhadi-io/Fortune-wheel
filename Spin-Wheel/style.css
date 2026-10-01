@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#111,#222);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    text-align:center;
+}
+
+#wheel{
+    font-size:120px;
+    margin:20px;
+    transition:transform 3s ease;
+}
+
+.spin{
+    transform:rotate(1440deg);
+}
+
+button{
+    padding:15px 35px;
+    border:none;
+    border-radius:10px;
+    background:gold;
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+#result{
+    margin-top:20px;
+}
+
+h3{
+    margin-top:15px;
+    color:gold;
+}
